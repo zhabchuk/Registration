@@ -1,0 +1,22 @@
+@import '../../../styles/mixins.scss';
+
+.mod-edit {
+    @include contentPrising();
+    height: 110px;
+    width: 250px;
+    background-color: hsl(71, 62%, 56%);
+    border: 1px solid rgb(128, 0, 21);
+    border-radius: 10px;
+    &__wrapper{
+        padding: 15px;
+    }
+    &__input{
+        width: 100%;
+    }
+    &__group{
+        padding-top: 10px;
+    }
+    &__group > button:nth-child(1){
+        margin-right: 10px;
+    }
+}

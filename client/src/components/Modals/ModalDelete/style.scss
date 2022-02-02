@@ -1,0 +1,19 @@
+@import "../../../styles/mixins.scss";
+
+.mod-delete {
+  @include contentPrising();
+  height: 135px;
+  width: 250px;
+  background: rgba(255, 235, 205, 0.89);
+  border: 1px solid rgb(128, 0, 21);
+  border-radius: 10px;
+  &__wrapper {
+    padding: 15px;
+  }
+  &__wrapper-btn {
+    padding-top: 10px;
+  }
+  &__wrapper-btn > button:nth-child(1) {
+    margin-right: 10px;
+  }
+}
